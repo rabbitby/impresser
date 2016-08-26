@@ -20,6 +20,7 @@
     "minimist": "^1.1.1",
     "phantomjs-prebuilt": "^2.1.12",
     "qs": "^2.4.1",
+    "redis": "^2.6.2",
     "response-time": "^2.3.0",
     "yargs": "^3.6.0"
   }
