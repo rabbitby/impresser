@@ -36,6 +36,7 @@ var
     .describe('impress-resources-logging', 'Add logging for impress resources received by default false')
     .describe('impress-warnings', 'Add warnings to impress report by default true')
     .describe('config', 'Path to config file, can be multiple')
+    .describe('count-to-restart', 'Number of requests to restart phantomjs')
     .help('h')
     .alias('h', 'help')
     .epilog('impresser (https://github.com/icons8/impresser)')
