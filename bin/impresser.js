@@ -8,7 +8,6 @@ var
 
   argv = yargs
     .usage('Usage: $0 [config.json[, ...config.json]] [options]')
-    .describe('base-url', 'Base url for relative addresses by default http://icons8.com')
     .describe('frontend', 'Use impresser as frontend server by default true')
     .describe('proxy', 'Use proxy server for resources and not GET requests by default true')
     .describe('server-port', 'Port of impresser server by default 8497')
